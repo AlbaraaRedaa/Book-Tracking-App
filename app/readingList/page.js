@@ -3,10 +3,10 @@ import React from "react";
 import Book from "@/components/book";
 import "@/app/globals.css";
 import { useBooksState } from "@/providers/BooksContext";
-const readingList = ({ items }) => {
+const ReadingList = ({ items }) => {
   const { listBooks } = useBooksState();
   return (
-    <div className="">
+    <div>
       <h2 className=" appTitle text-center py-4">My Reading List</h2>
       {listBooks.length > 0 &&
         listBooks.map((book, i) => (
@@ -17,4 +17,4 @@ const readingList = ({ items }) => {
     </div>
   );
 };
-export default readingList;
+export default ReadingList;
