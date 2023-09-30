@@ -2,26 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+    background-image: url("../public/homePageImage.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100hv;
+    padding: 0hv;
+    margin: 0hv;
+    }
+    
+
+.appTitle{
+    width: 779hv;
+    height: 73hv;
+    flex-shrink: 0;
+    color: #D4F4DD;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+.hideScrollbar::-webkit-scrollbar{
+    
+        display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    
+.bookCard:hover{
+    transform: scale(0.9);
 }
