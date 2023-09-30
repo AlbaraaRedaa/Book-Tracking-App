@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import SearchBox from "@/components/searchBox";
-// import Books from "@/components/book";
 import Card from "@/components/bookCard";
 import { useState } from "react";
 import axios from "axios";
