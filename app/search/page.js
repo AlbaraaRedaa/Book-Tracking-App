@@ -26,8 +26,8 @@ const searchPage = () => {
 
   return (
     <>
-      <div className="w-full flex flex-row max-md:flex-col justify-center  text-center h-screen gap-y-6 bg-black/[0.2]">
-        <div className="h-full flex flex-col justify-center gap-y-4 p-10 max-md:p-2">
+      <div className="h-full w-full flex flex-row max-md:flex-col justify-center text-center gap-y-6 bg-black/[0.2]">
+        <div className="md:h-screen flex flex-col justify-center gap-y-4 p-10 md:mt-0 mt-10 max-md:p-2">
           <div>
             <h1 className="appTitle">Book Tracking App</h1>
           </div>
@@ -51,7 +51,7 @@ const searchPage = () => {
             </div>
           </div>
         </div>
-        <div className="max-h-screen flex flex-col gap-y-5 p-10 overflow-y-auto hideScrollbar max-md:overflow-visible">
+        <div className="md:max-h-screen flex flex-col gap-y-5 p-10 overflow-y-auto hideScrollbar max-md:overflow-visible">
           {<Card  book={...bookData}></Card>}    
         </div>
       </div>

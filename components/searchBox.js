@@ -8,7 +8,7 @@ let searchBox = ({ search, setSearch, searchBook }) => {
     <>
       <div className="flex flex-col gap-4 ">
         <div className="flex flex-row gap-2">
-          <div className="text-center flex-row w-full  items-end md:flex-nowrap mb-6 md:mb-0 gap-4 ">
+          <div className="text-center flex-row w-full items-end md:flex-nowrap mb-6 md:mb-0 gap-4 ">
             <Input
               size="lg"
               type="Search"

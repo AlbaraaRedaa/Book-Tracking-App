@@ -2,15 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 body{
     background-image: url("../public/homePageImage.png");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: repeat;
-    height: 100hv;
-    padding: 0hv;
-    margin: 0hv;
-    }
+}
     
 
 .appTitle{
