@@ -16,9 +16,7 @@ const searchPage = () => {
       const response = await axios.get(
         "https://www.googleapis.com/books/v1/volumes?q=" +
           search +
-          "&key=" +
-          process.env.NEXT_PUBLIC_GOOGLE_API_KEY +
-          "&maxResults=40"
+          "&key= AIzaSyDNzn-pYCYBtQ8xeue2n7Kpj_Yf-5ZSVYA&maxResults=40"
       );
       setData(response.data.items);
     }
