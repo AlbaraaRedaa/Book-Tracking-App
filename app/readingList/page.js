@@ -8,7 +8,7 @@ const ReadingList = ({ items }) => {
   const { listBooks } = useBooksState();
   return (
     <>
-      <div className="h-full w-full flex flex-row max-md:flex-col justify-center text-center gap-y-6 bg-black/[0.2]">
+      <div className="h-full w-full flex flex-row max-md:flex-col justify-center text-center gap-y-6  ">
         <div className="md:h-screen flex flex-col justify-center gap-y-4 p-10 md:mt-0 mt-10 max-md:p-2">
           <div>
             <h2 className=" appTitle text-center py-4">My Reading List</h2>
